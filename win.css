@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top
+{
+    width: 80%;
+    height: 80%;
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    background: linear-gradient(30deg, #04a0e9, rgb(236, 8, 65));
+    overflow: auto;
+    border-radius: 50px;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+.top h1
+{
+    padding: 10%;
+    color: rgba(255, 255, 255, 0.596);
+    font-size: 5ex;
+    padding-bottom: 60px;
+}
+.top p
+{
+    padding: 10%;
+    padding-top: 0;
+    width: 80%;
+    color: rgba(255, 255, 255, 0.315);
+    font-size: 3ex;
+    /* padding-left: 20%; */
+}
+.top a{
+    margin-left: 60%;
+    position: relative;
+    top: -60px;
+    background: transparent;
+    border-radius: 6px;
+    padding: 10px;
+    border: 1px solid rgba(236, 8, 65, 0.74);
+    color: rgba(255, 255, 255, 0.61);
+    transition: 0.3s;
+    text-decoration: none;
+}
+.top a:active{
+    border: 0;
+    background: rgba(236, 8, 65, 0.74);
+}
+.top a:hover{
+    border: 0;
+    background: #04a0e9;
+}
+.down{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 100%;
+    /* background: #fff; */
+    overflow: auto;
+}
+.down .card
+{
+    background: linear-gradient(120deg, #04a0e9, rgba(232, 236, 8, 0.753));
+    border-radius: 50px;
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    margin: 40px;
+    position: relative;
+    left: 10%;
+}
+.down .card h1{
+    color: rgba(255, 255, 255, 0.678);
+    margin-top: 50%;
+    text-align: center;
+}
+.down .card a{
+    margin-left: 28%;
+    position: relative;
+    top: 60px;
+    background: transparent;
+    border-radius: 6px;
+    padding: 10px;
+    border: 1px solid #04a0e9;
+    color: rgba(255, 255, 255, 0.61);
+    transition: 0.3s;
+    text-decoration: none;
+}
+.down .card a:active{
+    border: 0;
+    background: rgba(236, 8, 65, 0.74);
+}
+.down .card a:hover{
+    border: 0;
+    background: #04a0e9;
+}
